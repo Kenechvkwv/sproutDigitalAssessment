@@ -96,3 +96,10 @@
 #greytext {
   color: #79869f;
 }
+.px-6 {
+  padding: 10px 90px;
+}
+
+li .btngreen {
+  box-shadow: 10px 10px 25px #012707;
+}
