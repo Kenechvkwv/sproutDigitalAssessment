@@ -1,0 +1,94 @@
+.textyellow {
+  color: #ffbb00;
+}
+
+@media screen and (min-width: 480px) {
+  .carousel-caption {
+    position: absolute;
+    z-index: 20;
+    bottom: 35%;
+  }
+  .fs-7 {
+    font-size: 65px;
+  }
+
+  .mypad {
+    padding: 0 250px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .fs-7 {
+    font-size: 20px;
+  }
+  .carousel-caption {
+    position: absolute;
+    z-index: 20;
+    top: 20%;
+  }
+  .btngreen {
+    background-color: #009617;
+    border-radius: 7.5px;
+    color: white;
+    max-width: fit-content;
+    padding: 10px;
+  }
+
+  .carousel-small-screen {
+    height: 250px;
+  }
+
+  .fs-8 {
+    font-size: 10px;
+  }
+}
+
+.btngreen {
+  background-color: #009617;
+  border-radius: 7.5px;
+  color: white;
+  max-width: fit-content;
+}
+
+.btn-white {
+  background-color: white;
+}
+
+.btn-white:hover {
+  background-color: white;
+  color: #009617;
+}
+
+.textgreen {
+  color: #009617;
+}
+
+.bggreen {
+  background-color: #009617;
+}
+
+.sectionmobile {
+  background-image: url("./assets/hold1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sectionmobile a {
+  text-decoration: none;
+  color: white;
+}
+.sectionlarge a {
+  text-decoration: none;
+  color: white;
+}
+
+.raise {
+  position: absolute;
+  bottom: 7px;
+}
+.cards {
+  margin-top: 100px;
+}
+.cards .card {
+  padding: 30px;
+}
