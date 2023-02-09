@@ -107,3 +107,8 @@ li .btngreen .px-6 {
 .mx-6 {
   margin: 0 200px;
 }
+.rectangle {
+  background-image: url("./assets/Rectangle.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
