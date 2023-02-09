@@ -50,6 +50,13 @@
   max-width: fit-content;
 }
 
+.btngreen:hover {
+  background-color: #009617;
+  border-radius: 7.5px;
+  color: white;
+  max-width: fit-content;
+}
+
 .btn-white {
   background-color: white;
 }
